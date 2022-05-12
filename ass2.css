@@ -4,12 +4,7 @@ html{
 }
 
 
-/*.container{
-    
-    border: groove yellowgreen 8px;
-     width: 99%;
-     min-height: 100vh;
- }*/
+
  .top_section{
      display: flex;
      justify-content: space-between;
