@@ -1,0 +1,124 @@
+.offer{
+    background-image: linear-gradient(to right, red,green,yellow);
+    text-align:center;
+    text-decoration: underline;
+}
+.contact{
+   
+    background-color:aqua;
+    width:80vw;
+    display:flex;
+    justify-content: center;
+    margin-left:90px;
+    margin-right:50px;
+    border:10px red solid;
+    border-radius:15px;
+}
+.flex-container{
+    background-color:aquamarine;
+    padding:2px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    
+
+}
+.flex-item{
+    background-color:aqua;
+    border:5px green solid;
+    border-radius:15px;
+    margin:2px;
+    width:280px;
+    height:90px;
+}
+.item{
+    width:380px;
+    height:80px;
+}
+.jee{
+    background-image:linear-gradient(
+        to left,
+        red,
+        yellow,
+        red
+     );
+    text-align:center;   
+    text-decoration:underline;
+}
+.marks-container{
+    background-image:radial-gradient(green,blue);
+    display:flex;
+    justify-content: space-around;
+    padding:30px;
+
+}
+.marks-items{
+    background-color:yellow;
+    margin:8px;
+    color:red;
+    border:8px solid red;
+    border-radius:10px;
+
+}
+.lower-container{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: 275px 405px 405px 110px;
+  grid-template-rows: 50px 80px 120px 40px;
+  gap: 10px 10px;
+  }
+  
+  .grid-item{
+    background-color: aqua;
+  padding: 10px;
+  font-size: 20px;
+  
+  }
+  .one{
+    background-color: rgb(192, 60, 60);
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  .two{
+    background-color: darkgreen;
+  }
+  .three{
+    background-color: rgb(0, 119, 255);
+    text-align: left;
+  }
+  .four{
+    background-color: rgb(46, 46, 226);
+    text-align: left;
+  }
+  .five{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    text-align: left;
+    background-color:black;
+    font-size: 15px;
+  
+  }
+  .six{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color:rgb(223, 223, 33);
+    text-align: left;
+  
+  }
+  .seven{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    color: black;
+    font-weight: bold;
+  }
+li{
+    text-decoration: underline;
+}

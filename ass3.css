@@ -14,6 +14,7 @@ html{
     position:relative;
     left:40%;
     box-shadow: 8px 8px 2px purple;
+    text-shadow: 4px 3px 3px orange;
 }
 .line{
     color:yellow;
@@ -111,6 +112,7 @@ html{
 .get{
     text-align:center;
     padding-bottom:200px;
+    float:right;
 }
 hr{
     border:3px solid black;
